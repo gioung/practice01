@@ -1,5 +1,11 @@
 # 주어진 if 문을 dict를 사용해서 수정하세요.
-menu = {'오뎅': 300, '순대': 400, '만두': 500}
-print(menu['크크'])
+menus = {'오뎅': 300, '순대': 400, '만두': 500}
+menu = input('메뉴 : ')
 
-# 미완성
+if menus.get(menu) is not None:
+        print('가격: {}'.format(menus.get(menu)))
+
+
+
+
+
